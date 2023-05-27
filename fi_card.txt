@@ -1,0 +1,341 @@
+[font=Arial][center]LOS SANTOS POLICE DEPARTMENT
+[size=120][color=black][b]FIELD INTERVIEW CARD (FRONT)[/b][/font][/color][/size][/center]
+
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]NAME (FIRST, MIDDLE, LAST)[/size]
+${this.suspect_name}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,13,5]
+[size=87]PHONE[/size]
+${this.suspect_phone}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SEX (M/F/O)[/size]
+${this.suspect_sex}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]HAIR[/size]
+${this.suspect_hair}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]EYES[/size]
+${this.suspect_eyes}
+[/tdwidth][/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,35,5]
+[size=87]RESIDENCE[/size]
+${this.suspect_res}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]BIRTHDATE[/size]
+${convertTime(this.suspect_dob, "DD/MMM/YYYY")}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]DESCENT[/size]
+${this.suspect_descent}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]HEIGHT[/size]
+${this.suspect_height}
+[/tdwidth][/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]CLOTHING[/size]
+${this.suspect_clothing}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]PERSONAL ODDITIES[/size]
+${this.suspect_po}
+[/tdwidth]
+[/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]MONIKER / ALIAS[/size]
+${this.suspect_moniker}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]GANG / CLUB[/size]
+${this.suspect_gang}
+[/tdwidth]
+[/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=0,black,transparent,top,left,2,5]
+[size=87][b]SUBJ
+INFO[/b][/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,5,5]
+[size=87]${section[0][0]}LOITERER
+${section[0][1]}PROWLER[/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,6,5]
+[size=87]${section[0][2]}HOMELESS
+${section[0][3]}WITNESS[/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,7,5]
+[size=87]${section[0][4]}GANG ACTIVITY
+${section[0][5]}HAS RECORD[/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,8,5]
+[size=87]${section[0][6]}ON PAROLE
+${section[0][7]}ON PROBATION[/size]
+
+[/tdwidth]
+[tdwidth=0,black,transparent,top,left,8,5]
+[size=87]${section[0][8]}DRIVER
+${section[0][9]}PASSENGER
+[/size]
+[/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]VEH. MAKE[/size]
+${this.veh_make}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]VEH. MODEL[/size]
+${this.veh_model}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]TYPE[/size]
+${this.veh_type}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]COLOR[/size]
+${this.veh_color}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]VEH. LIC. NO.[/size]
+${this.veh_plate}
+[/tdwidth]
+[/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=0,black,transparent,top,left,2,5]
+[size=87][b]VEH
+INFO[/b][/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,8,5]
+[size=87]${section[1][0]}BUCKET SEAT
+${section[1][1]}DAMAGED INSIDE[/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,8,5]
+[size=87]${section[1][2]}CUSTOM WHEELS
+${section[1][3]}PAINTED MURAL[/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,8,5]
+[size=87]${section[1][4]}LEVEL ALTER
+${section[1][5]}RUST / PRIMER[/size]
+
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]${section[1][6]}CUSTOM PAINT
+${section[1][7]}VINYL TOP[/size]
+
+[/tdwidth]
+[/tr]
+
+
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=0,black,transparent,top,left,2,5]
+[size=87][b]BODY[/b][/size]
+
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,4,5]
+[size=87]${section[2][0]}DAMAGE
+${section[2][1]}MODIFIED[/size]
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,3,5]
+[size=87]${section[2][2]}STICKER
+[/size]
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,3,5]
+[size=87]${section[2][3]}LEFT
+${section[2][4]}RIGHT[/size]
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,3,5]
+[size=87]${section[2][5]}FRONT
+${section[2][6]}REAR[/size]
+[/tdwidth]
+[tdwidth=0,black,transparent,top,left,2,5]
+[size=87][b]WINDOW[/b][/size]
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,4,5]
+[size=87]${section[3][0]}DAMAGE
+${section[3][1]}TINT[/size]
+[/tdwidth]
+[tdwidth=1,transparent,transparent,top,left,3,5]
+[size=87]${section[3][2]}LEFT
+${section[3][3]}RIGHT[/size]
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,3,5]
+[size=87]${section[3][4]}FRONT
+${section[3][5]}REAR[/size]
+[/tdwidth]
+[/tr]
+[/table2]
+
+
+[font=Arial][center]LOS SANTOS POLICE DEPARTMENT
+[size=120][color=black][b]FIELD INTERVIEW CARD (BACK)[/b][/font][/color][/size][/center]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87][b]PERSONS WITH SUBJECT[/b][/size]
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]NAME (FIRST, MIDDLE, LAST)[/size]
+${this.sub1_name}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,13,5]
+[size=87]D.O.B[/size]
+${convertTime(this.sub1_dob, "DD/MMM/YYYY")}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SEX (M/F/O)[/size]
+${this.sub1_sex}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,15,5]
+[size=87]GANG / MONIKER[/size]
+${this.sub1_moniker}
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]NAME (FIRST, MIDDLE, LAST)[/size]
+${this.sub2_name}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,13,5]
+[size=87]D.O.B[/size]
+${convertTime(this.sub2_dob, "DD/MMM/YYYY")}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SEX (M/F/O)[/size]
+${this.sub2_sex}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,15,5]
+[size=87]GANG / MONIKER[/size]
+${this.sub2_moniker}
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,30,5]
+[size=87]ADDITIONAL INFO / NARRATIVE / INFORMATION[/size]
+${this.narrative}
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]DATE[/size]
+${convertTime(this.date_time, "DD/MMMM/YYYY")}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]TIME[/size]
+${convertTime(this.date_time, "HH:mm")}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,16,5]
+[size=87]LOCATION[/size]
+${this.location}
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,16,5]
+[size=87]OFFICER[/size]
+${this.ofc1_name}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SERIAL NO.[/size]
+${this.ofc1_serial}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,16,5]
+[size=87]OFFICER[/size]
+${this.ofc2_name}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SERIAL NO.[/size]
+${this.ofc2_serial}
+[/tdwidth]
+[/tr]
+[/table2]
+[table2=1,black,transparent,Arial]
+[tr]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87][b]CALLSIGN[/b][/size]
+${this.callsign}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,16,5]
+[size=87][b]INCIDENT NO.[/b][/size]
+${this.incno}
+[/tdwidth]
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]DIVISION[/size]
+${this.div}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]DETAIL[/size]
+${this.det}
+[/tdwidth]
+
+[tdwidth=1,black,transparent,top,left,8,5]
+[size=87]SUPV. INIT..[/size]
+${this.supvinit}
+[/tdwidth]
+[/tr]
+[/table2]

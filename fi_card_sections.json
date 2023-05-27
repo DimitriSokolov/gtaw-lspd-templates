@@ -1,0 +1,43 @@
+{
+    "Subject Info": [
+        "LOITERER",
+        "PROWLER",
+        "HOMELESS",
+        "WITNESS",
+        "GANG ACTIVITY",
+        "HAS RECORD",
+        "ON PAROLE",
+        "ON PROBATION",
+        "DRIVER",
+        "PASSENGER"
+    ],
+    "Vehicle Info": [
+        "BUCKET SEAT",
+        "DAMAGED INSIDE",
+        "CUSTOM WHEELS",
+        "PAINTED MURAL",
+        "LEVEL ALTER",
+        "RUST / PRIMER",
+        "CUSTOM PAINT",
+        "VINYL TOP"
+    ],
+    "Body": [
+        "DAMAGE",
+        "MODIFIED",
+        "STICKER",
+        "LEFT",
+        "RIGHT",
+        "FRONT",
+        "REAR"
+    ],
+    "Window": [
+        
+        "DAMAGE",
+        "TINT",
+        "LEFT",
+        "RIGHT",
+        "FRONT",
+        "REAR"
+    ]
+    
+}
